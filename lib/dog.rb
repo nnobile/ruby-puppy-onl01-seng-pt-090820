@@ -17,4 +17,3 @@ class Dog
     @@all.print
   end
 end
-end
