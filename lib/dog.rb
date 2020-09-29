@@ -14,6 +14,6 @@ class Dog
   end
 
   def self.print_all
-    prints [@@all]
+    prints [@@all].splice.join
   end
 end
