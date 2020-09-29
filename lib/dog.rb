@@ -17,7 +17,8 @@ class Dog
     @@all.print_all
   end
 
-end
+
 
 pluto = Dog.new
 pluto.name = "Pluto"
+end
