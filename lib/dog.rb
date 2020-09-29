@@ -4,6 +4,7 @@ class Dog
 
   def initialize(name)
     @@all << self
+    attr_accessor :name
   end
 
   def self.all
