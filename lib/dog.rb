@@ -18,7 +18,5 @@ class Dog
   end
 end
 
-
-
 pluto = Dog.new
 pluto.name = "Pluto"
