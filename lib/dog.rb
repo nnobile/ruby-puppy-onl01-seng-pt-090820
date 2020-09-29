@@ -17,5 +17,3 @@ class Dog
     puts @@all.inspect
   end
 end
-end
-end
