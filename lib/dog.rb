@@ -13,7 +13,7 @@ class Dog
     @@all.clear
   end
 
-  def self.print_all
-    puts @@all.inspect
+  def self.print
+    puts @@all.print_all
   end
 end
