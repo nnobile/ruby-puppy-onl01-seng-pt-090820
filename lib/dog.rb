@@ -1,10 +1,10 @@
 class Dog
   @@all = []
   @@print_all
+  attr_accessor :name
 
   def initialize(name)
     @@all << self
-    attr_accessor :name
   end
 
   def self.all
