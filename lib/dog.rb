@@ -14,9 +14,8 @@ class Dog
   end
 
   def self.print_all
-    new_dog_array = []
     @@all.print_all each do |dog|
-      puts new_dog_array
+      puts dog
   end
 end
 end
