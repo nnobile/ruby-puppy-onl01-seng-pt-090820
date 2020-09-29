@@ -14,6 +14,7 @@ class Dog
   end
 
   def self.print_all
-    print @@all.inspect
+    @@all.print_all each do |dog|
+      puts dog
   end
 end
