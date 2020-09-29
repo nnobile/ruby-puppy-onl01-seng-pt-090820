@@ -16,7 +16,7 @@ class Dog
   def self.print_all
     @@all.print_all
   end
-  
+
 end
 
 pluto = Dog.new
